@@ -126,3 +126,25 @@ strong{
     margin-top: 10px;
     font-size: 20px;
 }
+
+.CTACont{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.CTABox{
+    display: flex;    
+    padding:30px;
+    background-color: lightblue;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+}
+.CTABox h1{
+    font-size: 20px;
+}
+.CTA-left{
+    display: flex;
+    flex-direction: column;
+}
