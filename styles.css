@@ -112,6 +112,7 @@ button{
 }
 .quote{
     display: flex;
+    flex-wrap: wrap;
 }
 .quote em{
     font-family: "Roboto", sans-serif;
@@ -132,6 +133,7 @@ strong{
     height: 300px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .CTABox{
     display: flex;    
