@@ -4,7 +4,6 @@
 }
 body{
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 .header{
@@ -63,8 +62,8 @@ button{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    height: 400px;
     align-items: center;
+    gap: 20px;
 }
 .cardsCont{
     display: flex;
@@ -99,14 +98,31 @@ button{
     font-weight: 300;
     color: grey;
 }
+
 .qCont{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
     height: 400px;
-    background-color: aqua;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(230, 230, 230);
 }
 .quote{
     display: flex;
-    background-color: grey;
+}
+.quote em{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(44, 44, 44);
+    width: 600px;
+}
+
+strong{
+    font-family: "Roboto";
+    margin-top: 10px;
+    font-size: 20px;
 }
